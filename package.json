@@ -1,0 +1,31 @@
+{
+    "name": "clark-schema",
+    "version": "1.0.0",
+    "description": "CLARK Schema",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Cyber4All/clark-schema.git"
+    },
+    "author": "Kyle Sherbert",
+    "contributors": [
+        "Gustavus Shaw II <gshaw1997@gmail.com> (https://gustavusshaw.com)"
+    ],
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Cyber4All/clark-schema/issues"
+    },
+    "homepage": "https://github.com/Cyber4All/clark-schema#readme",
+    "dependencies": {
+        "clark-entity": "^1.0.16",
+        "mongodb": "^3.0.1"
+    },
+    "devDependencies": {
+        "@types/mongodb": "^3.0.3",
+        "typescript": "^2.6.2"
+    }
+}

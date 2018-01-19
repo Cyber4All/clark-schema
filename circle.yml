@@ -1,0 +1,15 @@
+machine:
+  node:
+    version: 7.9.0
+dependencies:
+  pre:
+    - 'echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc'
+test:
+  override:
+    - echo "done"
+deployment:
+  npm:
+    tag: '/v[0-9]+(\.[0-9]+)*/'
+    commands:
+      - npm run build
+      - npm publish
