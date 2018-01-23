@@ -21,7 +21,7 @@
     },
     "homepage": "https://github.com/Cyber4All/clark-schema#readme",
     "dependencies": {
-        "clark-entity": "^1.0.16",
+        "@cyber4all/clark-entity": "^1.0.18",
         "mongodb": "^3.0.1"
     },
     "devDependencies": {

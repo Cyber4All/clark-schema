@@ -13,7 +13,7 @@ import { LearningOutcomeID } from './learning-outcome.schema';
 import { DBID } from './db.schema';
 
 
-import { Repository } from 'clark-entity';
+import { Repository } from '@cyber4all/clark-entity';
 
 export type LearningObjectID = DBID;
 
