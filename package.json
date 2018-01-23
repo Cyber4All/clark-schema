@@ -1,5 +1,5 @@
 {
-    "name": "clark-schema",
+    "name": "@cyber4all/clark-schema",
     "version": "1.0.2",
     "description": "CLARK Schema",
     "main": "dist/index.js",
