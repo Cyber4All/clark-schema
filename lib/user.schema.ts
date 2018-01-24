@@ -18,7 +18,7 @@ export abstract class UserSchema {
     static _id: UserID;
 
     @unique @field
-    static id: string;
+    static username: string;
 
     @field
     static name_: string;
@@ -42,7 +42,7 @@ export interface UserRecord extends Record, UserInsert {
 }
 
 // add in fixed fields
-export interface UserInsert extends Insert, UserUpdate {}
+export interface UserInsert extends Insert, UserUpdate { }
 
 // add in foreign fields
 export interface UserUpdate extends Update, UserEdit {
