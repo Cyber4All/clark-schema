@@ -35,6 +35,9 @@ export abstract class LearningObjectSchema {
     static length_: string;
 
     @field
+    static level: string;
+
+    @field
     static goals: LearningGoalInterface[];
 
     @foreign('outcomes', true) @field
@@ -102,6 +105,7 @@ export interface LearningObjectEdit extends Edit {
     name_: string;
     date: string;
     length_: string;
+    level: string;
     goals: LearningGoalInterface[];
     repository: Repository;
 }
