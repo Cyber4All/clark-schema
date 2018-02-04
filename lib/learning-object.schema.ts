@@ -45,6 +45,9 @@ export abstract class LearningObjectSchema {
 
     @field
     static repository: Repository;
+
+    @field
+    static published: boolean;
 }
 
 /**
@@ -108,4 +111,5 @@ export interface LearningObjectEdit extends Edit {
     level: string;
     goals: LearningGoalInterface[];
     repository: Repository;
+    published: boolean;
 }
