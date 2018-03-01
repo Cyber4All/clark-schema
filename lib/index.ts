@@ -12,6 +12,7 @@ import {
   AssessmentPlanDocument,
   InstructionalStrategyDocument
 } from './learning-outcome.schema';
+import { StandardOutcomeDocument } from './standard-outcome.schema';
 
 export {
   UserDocument,
@@ -22,5 +23,6 @@ export {
   UrlDocument,
   LearningOutcomeDocument,
   AssessmentPlanDocument,
-  InstructionalStrategyDocument
+  InstructionalStrategyDocument,
+  StandardOutcomeDocument,
 };
