@@ -1,6 +1,6 @@
 {
   "name": "@cyber4all/clark-schema",
-  "version": "2.0.0-beta.0.0",
+  "version": "2.0.0-beta.0.1",
   "description": "CLARK Schema",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -17,9 +17,7 @@
     "url": "https://github.com/Cyber4All/clark-schema/issues"
   },
   "homepage": "https://github.com/Cyber4All/clark-schema#readme",
-  "dependencies": {
-
-  },
+  "dependencies": {},
   "devDependencies": {
     "typescript": "^2.6.2"
   },
