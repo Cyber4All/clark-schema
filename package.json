@@ -18,11 +18,9 @@
   },
   "homepage": "https://github.com/Cyber4All/clark-schema#readme",
   "dependencies": {
-    "graphql": "^0.13.1",
-    "graphql-tools": "^2.21.0"
+
   },
   "devDependencies": {
-    "@types/graphql": "^0.12.4",
     "typescript": "^2.6.2"
   },
   "prettier": {
