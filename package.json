@@ -1,31 +1,31 @@
 {
-    "name": "@cyber4all/clark-schema",
-    "version": "1.0.7",
-    "description": "CLARK Schema",
-    "main": "dist/index.js",
-    "types": "dist/index.d.ts",
-    "scripts": {
-        "build": "tsc"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/Cyber4All/clark-schema.git"
-    },
-    "author": "Kyle Sherbert",
-    "contributors": [
-        "Gustavus Shaw II <gshaw1997@gmail.com> (https://gustavusshaw.com)"
-    ],
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/Cyber4All/clark-schema/issues"
-    },
-    "homepage": "https://github.com/Cyber4All/clark-schema#readme",
-    "dependencies": {
-        "@cyber4all/clark-entity": "^1.0.18",
-        "mongodb": "^3.0.1"
-    },
-    "devDependencies": {
-        "@types/mongodb": "^3.0.3",
-        "typescript": "^2.6.2"
-    }
+  "name": "@cyber4all/clark-schema",
+  "version": "1.0.7",
+  "description": "CLARK Schema",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cyber4All/clark-schema.git"
+  },
+  "author": "Gustavus Shaw II <gshaw1997@gmail.com> (https://gustavusshaw.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cyber4All/clark-schema/issues"
+  },
+  "homepage": "https://github.com/Cyber4All/clark-schema#readme",
+  "dependencies": {
+    "graphql": "^0.13.1",
+    "graphql-tools": "^2.21.0"
+  },
+  "devDependencies": {
+    "@types/graphql": "^0.12.4",
+    "typescript": "^2.6.2"
+  },
+  "prettier": {
+    "singleQuote": true
+  }
 }
