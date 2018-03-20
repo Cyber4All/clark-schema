@@ -10,4 +10,5 @@ export type UserDocument = {
   organization: string;
   password: string;
   objects: string[];
+  emailVerified: boolean;
 };
