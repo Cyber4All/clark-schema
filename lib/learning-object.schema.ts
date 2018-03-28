@@ -12,6 +12,7 @@ export type LearningObjectDocument = {
   outcomes: string[];
   materials: MaterialDocument;
   published: boolean;
+  children: string[];
 };
 
 export type LearningGoalDocument = {
