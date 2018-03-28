@@ -17,7 +17,9 @@
     "url": "https://github.com/Cyber4All/clark-schema/issues"
   },
   "homepage": "https://github.com/Cyber4All/clark-schema#readme",
-  "dependencies": {},
+  "dependencies": {
+    "graphql": "^0.13.2"
+  },
   "devDependencies": {
     "typescript": "^2.6.2"
   },
