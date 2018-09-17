@@ -14,6 +14,7 @@ export type LearningObjectDocument = {
   published: boolean;
   contributors: string[];
   children: string[];
+  lock?: LearningObjectLockDocument;
 };
 
 export type LearningGoalDocument = {
@@ -32,6 +33,16 @@ export type FileDocument = {
   fileType: string;
   url: string;
   date: string;
+};
+
+export enum Restriction {
+  FULL = 'full',
+  PUBLISH = 'publish',
+  DOWNLOAD = 'download'
+}
+export type LearningObjectLockDocument = {
+  date?: string;
+  restrictions: Restriction[];
 };
 
 export type UrlDocument = { title: string; url: string };
