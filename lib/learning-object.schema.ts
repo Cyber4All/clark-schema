@@ -13,6 +13,7 @@ export type LearningObjectDocument = {
   materials: MaterialDocument;
   published: boolean;
   contributors: string[];
+  children: string[];
 };
 
 export type LearningGoalDocument = {
