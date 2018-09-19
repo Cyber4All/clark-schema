@@ -14,6 +14,7 @@ export type LearningObjectDocument = {
   published: boolean;
   contributors: string[];
   children: string[];
+  collection: string;
   lock?: LearningObjectLockDocument;
 };
 
